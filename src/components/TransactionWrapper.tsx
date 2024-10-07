@@ -14,23 +14,13 @@ import type {
   TransactionError,
   TransactionResponse,
 } from "@coinbase/onchainkit/transaction";
-import {
-  encodeFunctionData,
-  type Address,
-  type ContractFunctionParameters,
-  type Hex,
-} from "viem";
-import { BASE_CHAIN_ID, smartTokenABI, smartTokenAddress } from "../constants";
 import dotenv from "dotenv";
+import { type Address, type ContractFunctionParameters } from "viem";
+import { BASE_CHAIN_ID, smartTokenABI, smartTokenAddress } from "../constants";
+
 dotenv.config();
 
-type Call = {
-  to: Hex;
-  data?: Hex;
-  value?: bigint;
-};
-
-export default function TransactionWrapper({ address }: { address: Address }) {
+export default function TransactionWrapper({}: { address: Address }) {
   const contracts = [
     {
       address: smartTokenAddress,

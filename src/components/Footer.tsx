@@ -28,7 +28,7 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
             title="OnchainKit"
-            className="font-semibold hover:text-indigo-600 mx-1"
+            className="mx-1 font-semibold hover:text-indigo-600"
           >
             @0xdhruva
           </a>
@@ -38,7 +38,7 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
             title="OnchainKit"
-            className="font-semibold hover:text-indigo-600  mx-1"
+            className="mx-1 font-semibold hover:text-indigo-600  mx-1"
           >
             OnchainKit
           </a>
