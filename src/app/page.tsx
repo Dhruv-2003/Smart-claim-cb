@@ -34,7 +34,7 @@ export default function Page() {
         {/* <div className="flex h-[450px] w-[450px] max-w-full items-center justify-center rounded-xl bg-[#030712]"> */}
         <div className="rounded-xl bg-[#F3F4F6] px-4 py-[11px]">
           <p className="font-normal text-indigo-600 text-xl not-italic tracking-[-1.2px]">
-            Claim SMART Token from you Coinbase Smart Wallet
+            Claim SMART Token using Coinbase Smart Wallet
           </p>
         </div>
         {/* </div> */}
